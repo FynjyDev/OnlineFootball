@@ -26,7 +26,8 @@ public class SpawnManager : NetworkBehaviour
         if (!IsServer) return;
 
         GameObject newBall = Instantiate(ballPrefab, ballSpawnPos.position, Quaternion.identity, transform);
-        newBall.GetComponent<NetworkObject>().Spawn();
+        newBall.GetComponent<NetworkObject>().SpawnWithOwnership(NetworkManager.Singleton.LocalClientId);
+       
     }
 
     public override void OnDestroy()

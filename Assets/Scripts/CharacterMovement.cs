@@ -1,6 +1,7 @@
 using UnityEngine;
+using Unity.Netcode;
 
-public class CharacterMovement : MonoBehaviour
+public class CharacterMovement : NetworkBehaviour
 {
     //public Animator characterAnimator;
     public Transform characterTr;

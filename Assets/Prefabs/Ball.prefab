@@ -95,8 +95,8 @@ GameObject:
   - component: {fileID: 7355757174788533674}
   - component: {fileID: 7355757174788533673}
   - component: {fileID: 2209808397659805982}
-  - component: {fileID: 5050248087483160608}
-  - component: {fileID: 1520783221111765719}
+  - component: {fileID: -6177735236772658654}
+  - component: {fileID: -3847097110974646652}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -134,7 +134,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!135 &7355757174788533673
 SphereCollider:
@@ -143,7 +143,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7355757174788533672}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c917aae1b1a1ec14496419e5a3455296, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -165,7 +165,7 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &5050248087483160608
+--- !u!114 &-6177735236772658654
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7355757174788533672}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 96cfec1f69cb20f479e67df539690a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 1
@@ -191,7 +191,7 @@ MonoBehaviour:
   ScaleThreshold: 0.01
   InLocalSpace: 0
   Interpolate: 1
---- !u!114 &1520783221111765719
+--- !u!114 &-3847097110974646652
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
